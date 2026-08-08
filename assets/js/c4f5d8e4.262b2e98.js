@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkvh_api_docu1=self.webpackChunkvh_api_docu1||[]).push([["4823"],{7176(u,c,e){e.r(c),e.d(c,{default:()=>t});var r=e(4848),s=e(6347);function t(){return(0,r.jsx)(s.rd,{to:"/docs/intro"})}}}]);

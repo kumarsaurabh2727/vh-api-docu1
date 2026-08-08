@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvh_api_docu1=self.webpackChunkvh_api_docu1||[]).push([["4823"],{7176(u,c,a){a.r(c),a.d(c,{default:()=>o});var d=a(4848),e=a(6347);function o(){return(0,d.jsx)(e.rd,{to:"/vh-api-docu1/docs/intro"})}}}]);
