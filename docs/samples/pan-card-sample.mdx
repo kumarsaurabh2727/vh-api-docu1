@@ -1,0 +1,38 @@
+# Pan Card
+## Request Sample
+
+```json
+{
+  "Front": "base64-encoded-front-image",
+  "Back": "base64-encoded-back-image",
+  "Source_type": "USER_UPLOAD",
+  "Source": "MOBILE_APP",
+  "Document_type": "PAN_CARD"
+}
+```
+
+## Response Sample (Success)
+
+```json
+{
+  "RESPONSE": "SUCCESS",
+  "RESPONSE_MSG": "PAN Card document processed successfully.",
+  "DATA": {
+    "Text_front": "INCOME TAX DEPARTMENT\nGOVT. OF INDIA\nABCDE1234F\nRAHUL KUMAR\n15/06/1990",
+    "Text_back": "Signature\nAddress: Bengaluru, Karnataka, India"
+  }
+}
+```
+
+## Response Sample (Failure)
+
+```json
+{
+  "RESPONSE": "FAILED",
+  "RESPONSE_MSG": "Unable to process the PAN Card document.",
+  "DATA": {
+    "Text_front": "",
+    "Text_back": ""
+  }
+}
+```

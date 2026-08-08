@@ -1,0 +1,41 @@
+# GST Certificate
+## Request Sample
+
+```json
+{
+  "source_type": "GST_CERTIFICATE"
+}
+```
+
+## Response Sample (Success)
+
+```json
+{
+  "RESPONSE": {
+    "status": "SUCCESS",
+    "RESPONSE_MSG": "GST Certificate retrieved successfully.",
+    "gst_certificate": {
+      "gstin": "29ABCDE1234F1Z5",
+      "legal_name": "ABC Technologies Pvt. Ltd.",
+      "trade_name": "ABC Technologies",
+      "registration_date": "2020-05-18",
+      "constitution_of_business": "Private Limited Company",
+      "taxpayer_type": "Regular",
+      "gst_status": "Active",
+      "principal_place_of_business": "Bengaluru, Karnataka, India"
+    }
+  }
+}
+```
+
+## Sample Response (Failure)
+
+```json
+{
+  "RESPONSE": {
+    "status": "FAILED",
+    "RESPONSE_MSG": "Invalid GSTIN or GST Certificate not found."
+  }
+}
+```
+
