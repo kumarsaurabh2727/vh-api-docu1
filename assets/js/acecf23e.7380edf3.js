@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvh_api_docu1=self.webpackChunkvh_api_docu1||[]).push([["3220"],{1912(a){a.exports=JSON.parse('{"blogBasePath":"/vh-api-docu1/blog","blogTitle":"Blog","authorsListPath":"/vh-api-docu1/blog/authors"}')}}]);

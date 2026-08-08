@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvh_api_docu1=self.webpackChunkvh_api_docu1||[]).push([["7407"],{8258(a){a.exports=JSON.parse('{"metadata":{"permalink":"/vh-api-docu1/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
