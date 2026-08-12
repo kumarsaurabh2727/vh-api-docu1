@@ -1,0 +1,37 @@
+# Aadhaar Card
+## Request Sample
+
+```json
+
+{
+  "Front": "base64-encoded-front-image",
+  "Back": "base64-encoded-back-image",
+  "Source_type": "USER_UPLOAD",
+  "Source": "MOBILE_APP",
+  "Document_type": "AADHAAR_CARD"
+}
+```
+## Response Sample (Success)
+
+```json
+{
+  "RESPONSE": "SUCCESS",
+  "RESPONSE_MSG": "Aadhaar document processed successfully.",
+  "DATA": {
+    "Text_front": "GOVERNMENT OF INDIA\nAadhaar\nName: RAHUL KUMAR\nDate of Birth: 15/06/1990\nAadhaar No: XXXX XXXX 1234",
+    "Text_back": "Address: Bengaluru, Karnataka, India\nPIN: 560001"
+  }
+}
+```
+## Response Sample (Failure)
+
+```json
+{
+  "RESPONSE": "FAILED",
+  "RESPONSE_MSG": "Unable to process the Aadhaar document.",
+  "DATA": {
+    "Text_front": "",
+    "Text_back": ""
+  }
+}
+```
