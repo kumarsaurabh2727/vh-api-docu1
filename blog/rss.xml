@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Vahana HUb API Web Portal Blog</title>
+        <title>Vahana Hub API Web Portal Blog</title>
         <link>https://kumarsaurabh2727.github.io/vh-api-docu1/blog</link>
-        <description>Vahana HUb API Web Portal Blog</description>
+        <description>Vahana Hub API Web Portal Blog</description>
         <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
