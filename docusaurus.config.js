@@ -30,6 +30,8 @@ const config = {
   organizationName: 'kumarsaurabh2727', // Usually your GitHub org/user name.
   projectName: 'vh-api-docu1', // Usually your repo name.
 
+  trailingSlash: true,
+
   onBrokenLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set

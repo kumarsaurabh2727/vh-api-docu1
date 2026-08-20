@@ -21,7 +21,7 @@ const sidebars = {
   {
     type: 'category',
     label: 'Vahana Hub APIs',
-    items: ['vahana-hub-apis/gst-certificate', 'vahana-hub-apis/pan-card', 'vahana-hub-apis/aadhaar-card'],
+    items: ['vahana-hub-apis/cin-certificate', 'vahana-hub-apis/gst-certificate', 'vahana-hub-apis/pan-card', 'vahana-hub-apis/aadhaar-card'],
   },
 ],
 
@@ -31,7 +31,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Request & Response Samples',
-      items: ['samples/gst-certificate-sample', 'samples/pan-card-sample', 'samples/aadhaar-card-sample'],
+      items: ['samples/cin-certificate-sample', 'samples/gst-certificate-sample', 'samples/pan-card-sample', 'samples/aadhaar-card-sample'],
     },
   ],
 };

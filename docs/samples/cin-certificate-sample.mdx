@@ -1,0 +1,40 @@
+# CIN Certificate
+## Request Sample
+```json
+{
+  "source": "MOBILE_APP",
+  "source_type": "USER_UPLOAD"
+}
+```
+## Response Sample (Success)
+```json
+{
+  "RESPONSE": "SUCCESS",
+  "RESPONSE_MSG": "CIN Certificate processed successfully.",
+  "DATA": {
+    "Address": "123 Business Park, Bengaluru, Karnataka, India",
+    "Cin": "U12345KA2020PTC123456",
+    "Cin_splitted": {
+      "Registration": "U12345",
+      "State": "KA",
+      "Year": "2020",
+      "Company_Type": "PTC",
+      "Registration_Number": "123456"
+    },
+    "Company_name": "ABC Technologies Private Limited"
+  }
+}
+```
+## Response Sample (Failure)
+```json
+{
+  "RESPONSE": "FAILED",
+  "RESPONSE_MSG": "Unable to process the CIN Certificate.",
+  "DATA": {
+    "Address": "",
+    "Cin": "",
+    "Cin_splitted": "",
+    "Company_name": ""
+  }
+}
+```
